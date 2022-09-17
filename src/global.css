@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+*,::after,::before{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+  }
+li {
+	list-style: none;
+  }
+body{
+	font-family: 'Poppins', sans-serif;
+	height: auto;
+	background-color: #121213;
+  }
+  h1{
+	margin-bottom: 2rem;
+	letter-spacing: 1px;
+  }
+  .navbar {
+	background: #6A9113;  
+    background: -webkit-linear-gradient(to right, #141517, #6A9113); 
+    background: linear-gradient(to right, #141517, #6A9113); 
+	width: 100%;
+	height: 10vh;
+	box-shadow: 0 2px 10px rgba(0, 0, 0, 0.4);
+	position: fixed;
+  }
+  .navbar ul {
+	display: flex;
+	align-items: center;
+	height: 100%;
+	padding: 0 4rem;
+	gap: 3rem;
+  }
+  .navbar a {
+	text-decoration: none;
+	color: #FFF;
+  }
+  
+.descricao{
+	color: #fff;
+	margin: 8rem 4rem  ;
+	font-family: 'Abril Fatface', cursive;
+	font-weight: 300;
+	
+	
+}
+.Zoo:visited{
+  
+  color: rgb(63, 114, 63);
+}
+.primeira:visited{
+	color: rgb(63, 114, 63);
+}
+p{
+	font-family: sans-serif;
+	margin-left: 2rem;
+	margin-top: 2rem;
+}
+.nome{
+	margin: 7rem 1rem;
+    color: #fff;
+	font-family: 'Bungee Spice', cursive;
+}
+.galeria:visited{
+	color: rgb(63, 114, 63);
+}
